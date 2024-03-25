@@ -1,6 +1,6 @@
 const textarea = document.querySelector("#textArea");
 const text = document.querySelector(".text");
-const maxChars = 240;
+const maxChars = 40;
 
 function updateCharacterCount() {
   let inputText = textarea.value.slice(0, maxChars); // Limit input to maxChars length
